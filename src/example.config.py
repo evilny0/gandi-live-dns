@@ -7,11 +7,10 @@ Copy this file to config.py and update the settings
 # encoding: utf-8
 
 '''
-Get your API key
-Start by retrieving your API Key from the "Security" section in new Account admin panel to be able to make authenticated requests to the API.
-https://account.gandi.net/
+Get your PAT
+Start by retrieving your personal access token from the relevant section in the account admin panel to be able to make authenticated requests to the API.
 '''
-api_secret = '---my_secret_API_KEY----'
+api_token = '---my_secret_PAT----'
 
 #your domain with the subdomains in the zone file/UUID 
 domain = 'mydomain.tld'

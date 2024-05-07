@@ -17,7 +17,7 @@ import config
 import argparse
 
 api_endpoint = 'https://api.gandi.net/v5/livedns/domains/'
-headers = {"Content-Type": "application/json", "Authorization": "Apikey " + config.api_secret}
+headers = {"Content-Type": "application/json", "Authorization": "Bearer " + config.api_token}
 
 def get_dynip(ifconfig_provider):
     ''' find out own IPv4 at home <-- this is the dynamic IP which changes more or less frequently
